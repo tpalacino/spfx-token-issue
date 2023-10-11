@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "app-name-client-side-solution",
+    "id": "28d628fc-c2ce-47a9-8d16-1e7f8c934ee6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Cloudwell",
+      "privacyUrl": "https://cloudwell.io/privacy-policy",
+      "termsOfUseUrl": "https://cloudwell.io/terms-of-use",
+      "websiteUrl": "https://cloudwell.io/",
+      "mpnId": "3850068"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "app-name description"
+      },
+      "longDescription": {
+        "default": "app-name description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "app-name Feature",
+        "description": "The feature that activates elements of the app-name solution.",
+        "id": "b850c9fe-099d-4123-821d-0090dbdd2722",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/app-name.sppkg"
+  }
+}

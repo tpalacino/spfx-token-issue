@@ -1,0 +1,57 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "packageName": "com.cloudwell.app-name",
+    "id": "f57ccfee-ac10-4ff2-af79-9277deb201d4",
+    "version": "1.0",
+    "developer": {
+      "name": "Cloudwell",
+      "privacyUrl": "https://cloudwell.io/privacy-policy",
+      "termsOfUseUrl": "https://cloudwell.io/terms-of-use",
+      "websiteUrl": "https://cloudwell.io/",
+      "mpnId": "3850068"
+    },
+    "name": {
+      "short": "App Name"
+    },
+    "description": {
+      "short": "App Name description",
+      "full": "App Name description"
+    },
+    "icons": {
+      "outline": "f57ccfee-ac10-4ff2-af79-9277deb201d4_outline.png",
+      "color": "f57ccfee-ac10-4ff2-af79-9277deb201d4_color.png"
+    },
+    "accentColor": "#004578",
+    "staticTabs": [
+      {
+        "name": "App Name",
+        "contentUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=f57ccfee-ac10-4ff2-af79-9277deb201d4%26forceLocale={locale}",
+        "scopes": [
+          "personal"
+        ],
+        "entityId": "f57ccfee-ac10-4ff2-af79-9277deb201d4"
+      }
+    ],
+    "configurableTabs": [
+      {
+        "configurationUrl": "https://{teamSiteDomain}{teamSitePath}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/teamshostedapp.aspx%3FopenPropertyPane=true%26teams%26componentId=f57ccfee-ac10-4ff2-af79-9277deb201d4%26forceLocale={locale}",
+        "canUpdateConfiguration": false,
+        "scopes": [
+          "team"
+        ],
+        "context": [
+          "channelTab"
+        ]
+      }
+    ],
+    "validDomains": [
+      "*.login.microsoftonline.com",
+      "*.sharepoint.com",
+      "resourceseng.blob.core.windows.net"
+    ],
+    "webApplicationInfo": {
+      "resource": "https://{teamSiteDomain}",
+      "id": "00000003-0000-0ff1-ce00-000000000000"
+    }
+  }
