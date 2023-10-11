@@ -54,9 +54,10 @@ export default class AppNameWebPart extends BaseClientSideWebPart<IAppNameWebPar
   private async _getGraphValue(): Promise<string> {
     let graphUser: string = ''
     try {
-      const client = await this.context.msGraphClientFactory.getClient("3")
-      const me = await client.api("/me").get()
-      graphUser = JSON.stringify(me, null, 4)
+      // const client = await this.context.msGraphClientFactory.getClient("3")
+      // const me = await client.api("/me").get()
+      // graphUser = JSON.stringify(me, null, 4)
+      graphUser = "Graph Disabled"
     }
     catch (err) {
       graphUser = String(err)
